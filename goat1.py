@@ -1,10 +1,15 @@
 __author__ = 'root'
-class person:
-    name =''
-    school =''
+
+employe_name = 'milan'
+employe_name1 = 'gio'
+
+def worker_name (name):
+    print (name)
 
 
-abder = person()
-abder.name = 'milan'
-abder.school ='TWU university'
+worker_name(employe_name)
+
+print
+
+worker_name(employe_name1)
 
