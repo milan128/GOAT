@@ -1,2 +1,10 @@
 __author__ = 'root'
-print ('i am a cool goat')
+class person:
+    name =''
+    school =''
+
+
+abder = person()
+abder.name = 'milan'
+abder.school ='TWU university'
+
