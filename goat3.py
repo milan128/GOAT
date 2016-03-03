@@ -24,12 +24,28 @@ __author__ = 'root'
 #     print (str(iterright) + ' x '+  str(iterleft) + ' = ' + str(ans))
 
 
-chesscount = 0
-ans = 0
+# chesscount = 0
+# ans = 0
+#
+# while (chesscount < 64):
+#     ans = chesscount ** chesscount
+#     chesscount = chesscount + 1
+#
+#     print str(ans)
 
-while (chesscount < 64):
-    ans = chesscount ** chesscount
-    chesscount = chesscount + 1
+#
+# x = 4
+# y = 5
+#
+# print '%d / lovers/ %d' %(x,y)
 
-    print str(ans)
+
+y= int(input('Enter the numnber you want the table for :'))
+x = 1
+
+while   (x <= 10):
+
+    z = x* y
+    print ('%d *  %d =  %d') %(y, x, z)
+    x = x + 1
 
